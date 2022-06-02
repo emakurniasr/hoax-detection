@@ -1,5 +1,4 @@
-@import url(
-    'https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Montserrat:wght@300&family=Poppins&display=swap'
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Montserrat:wght@300&family=Poppins&display=swap'
 );
 
 body {
@@ -9,6 +8,7 @@ body {
 header {
     display: inline;
 }
+
 nav {
     background-color: #40B6E8;
     font-family: 'Poppins', sans-serif;
@@ -17,22 +17,27 @@ nav {
     padding: 20px 0;
     margin: 0;
 }
+
 nav ul {
     background-color: #40B6E8;
     margin: 0;
     overflow: hidden;
 }
+
 nav li {
     display: inline;
     margin-left: 10px;
 }
+
 nav a {
     text-decoration: none;
     color: #FFFF;
 }
+
 nav a:hover {
     font-weight: bolder;
 }
+
 .webname {
     padding-left: 150px;
     padding-right: 740px;
@@ -40,13 +45,16 @@ nav a:hover {
     font-weight: bolder;
     letter-spacing: 0.2em;
 }
+
 .nav-right {
     padding-right: 30px;
     font-size: 22px;
 }
+
 .desc {
     margin-bottom: 50px;
 }
+
 .jumbotron {
     text-align: center;
     background: linear-gradient(180deg, #40B6E8 0%, #86C9E6 100%);
@@ -63,35 +71,53 @@ nav a:hover {
     padding-top: 50px;
     padding-bottom: 100px;
 }
+
 .main-guide h2 {
     font-size: 2.75em;
     font-family: 'Montserrat', sans-serif;
 }
+
 .form {
     display: inline-block;
     border: 1px solid #909090;
     width: 85%;
     padding: 30px;
+    padding-bottom: 10vh;
 }
+
 .desc-guide {
     font-size: 1.2em;
     font-family: 'Montserrat', sans-serif;
     text-align: left;
 }
+
+.content-scan {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 7%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
 .news-keyword {
-    width: 40%;
+    width: 100%;
     height: 30vh;
     border: 1px solid #909090;
     border-radius: 6px;
-    text-align: left!important;
 }
+
+.card-scan {
+    height: 30vh;
+    border: 1px solid #909090;
+}
+
 ::placeholder {
     font-size: 1.5em;
     vertical-align: text-top;
 }
 
 .scan {
-    width: 96%;
+    width: 95%;
     height: 7vh;
     border-color: transparent;
     background-color: #40B6E8;
@@ -107,6 +133,6 @@ footer {
     padding-left: 30px;
     color: white;
     font-family: 'Inter', sans-serif;
-    background-color:#334042;
+    background-color: #334042;
     font-weight: bold;
 }
