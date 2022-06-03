@@ -4,7 +4,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Hoax Detection</title>
+    <title>Scanox - Scanner Hoax</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='assets/css/style.css'>
 </head>
@@ -14,9 +14,8 @@
         <nav class="navbar">
             <ul>
                 <li class="webname">Scanox</li>
-                <li><a href="#home">Scan</a></li>
-                <li><a href="/informasi.html">Informasi</a></li>
-                <li><a href="#faq">FAQ</a></li>
+                <li class="nav-right"><a href="#home">Scan</a></li>
+                <li class="nav-right"><a href="/informasi.html">Informasi</a></li>
             </ul>
         </nav>
         <div class="jumbotron">
@@ -34,12 +33,24 @@
         <div class="content">
             <div class="main-fitur">
                 <div class="main-guide">
-                    <h2>Cek Hoax di Sini</h2>
+                    <h2>Cek Hoax di Sini !</h2>
                 </div>
                 <div class="form">
                     <form>
-                        <input type="text" id="news-keyword" placeholder="Masukkan keyword berita"><br><br>
-                        <input type="submit" value="Scan">
+                        <div class="desc-guide">
+                            <p>Silahkan masukkan kata kunci di bawah ini</p>
+                        </div>
+                        <div class="content-scan">
+                            <div>
+                                <input class="news-keyword" type="text" placeholder="Masukkan keyword berita"><br><br>
+                            </div>
+                            <div class="card-scan">
+                                <p>Hoax</p>
+                            </div>
+                        </div>
+                        <div>
+                            <input class="scan" type="submit" value="Scan">
+                        </div>
                     </form>
                 </div>
             </div>
@@ -47,7 +58,7 @@
     </main>
 
     <footer>
-        <p>Copyright &copy; 2022 by PARFE</p>
+        <p>&copy; Copyright Scanox 2022</p>
     </footer>
 </body>
 
